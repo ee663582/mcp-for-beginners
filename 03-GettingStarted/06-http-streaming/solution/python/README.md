@@ -11,7 +11,7 @@ Here's how to run the classic HTTP streaming server and client, as well as the M
 ### Prerequisites
 
 - Python 3.9 or newer
-- The `mcp` Python package (install with `pip install mcp`)
+- The `mcp` Python package (install with `pip install "mcp[cli]>=1,<2"`)
 
 ### Installation & Setup
 
@@ -33,7 +33,7 @@ Here's how to run the classic HTTP streaming server and client, as well as the M
 1. **Install required dependencies:**
 
    ```pwsh
-   pip install "mcp[cli]" fastapi requests
+   pip install "mcp[cli]>=1,<2" fastapi requests
    ```
 
 ### Files
@@ -137,4 +137,3 @@ Here's how to run the classic HTTP streaming server and client, as well as the M
 - Always handle exceptions in both server and client for robustness.
 - Test with multiple clients to observe real-time updates.
 - If you encounter errors, check your Python version and ensure all dependencies are installed.
-

@@ -10,7 +10,7 @@ source ./venv/bin/activate
 ## Install dependencies
 
 ```sh
-pip install "mcp[cli]" dotenv PyJWT requests
+pip install "mcp[cli]>=1,<2" dotenv PyJWT requests
 ```
 
 ## Generate token
@@ -70,4 +70,3 @@ User exists, proceeding...
 ```
 
 You can either change back your server code or generate a new token that contains this additional scope, up to you.
-

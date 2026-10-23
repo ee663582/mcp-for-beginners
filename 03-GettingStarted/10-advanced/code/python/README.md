@@ -10,7 +10,7 @@ source ./venv/bin/activate
 ## Install dependencies
 
 ```sh
-pip install "mcp[cli]"
+pip install "mcp[cli]>=1,<2"
 ```
 
 ## Run code

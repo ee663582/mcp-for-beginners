@@ -17,7 +17,7 @@ venv\Scrips\activate
 ## -2- Install the dependencies
 
 ```bash
-pip install "mcp[cli]"
+pip install "mcp[cli]>=1,<2"
 pip install openai
 ```
 

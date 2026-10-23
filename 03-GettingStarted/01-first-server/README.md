@@ -385,11 +385,16 @@ npm install -D @types/node typescript
 
 #### Python
 
+> [!NOTE]
+> The Python samples use `FastMCP` from MCP Python SDK 1.x.
+> SDK 2.x changed this API, so keep the dependency below major version 2 until
+> these examples migrate.
+
 ```sh
 # Create a virtual env and install dependencies
 python -m venv venv
 venv\Scripts\activate
-pip install "mcp[cli]"
+pip install "mcp[cli]>=1,<2"
 ```
 
 #### Java

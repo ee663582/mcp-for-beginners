@@ -5,7 +5,7 @@ This sample starts an MCP Server with a middleware that checks for a valid Autho
 ## Install dependencies
 
 ```bash
-pip install "mcp[cli]" 
+pip install "mcp[cli]>=1,<2"
 ```
 
 ## Start server
